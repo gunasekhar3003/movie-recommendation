@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10111b">
+  <title>CineMatch — Movie Discovery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="CineMatch home"><span class="brand-mark">C</span><span>Cine<span class="brand-accent">Match</span></span></a>
+    <nav><a class="nav-active" href="#discover">Discover</a><a href="#recommendations">For you</a></nav>
+    <div class="top-note"><span class="live-dot"></span> Your movie universe</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR NEXT FAVORITE</div>
+        <h1>Every great story<br>starts with <span>one pick.</span></h1>
+        <p>Discover movies that match your mood. Choose a film you love and we’ll find stories with similar genres and themes.</p>
+        <a class="hero-cta" href="#discover">Explore movies <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="poster poster-back poster-a"><span>THE<br>UNKNOWN</span><i>✦</i></div>
+        <div class="poster poster-back poster-b"><span>BEYOND<br>EARTH</span><i>◉</i></div>
+        <div class="poster poster-front"><div class="poster-sun"></div><div class="poster-mountain"></div><div class="poster-title">CINEMA<br><small>IS A FEELING</small></div><div class="poster-caption">A WORLD OF STORIES</div></div>
+        <div class="float-chip chip-top">✦ Curated for you</div><div class="float-chip chip-bottom">▶ Press play on discovery</div>
+      </div>
+      <div class="hero-bottom"><span>01 / DISCOVER</span><span class="hero-scroll">SCROLL TO EXPLORE <b>↓</b></span></div>
+    </section>
+
+    <section id="discover" class="section discover-section">
+      <div class="section-heading">
+        <div><div class="eyebrow">THE COLLECTION</div><h2>Find your <span>kind of movie.</span></h2></div>
+        <div class="search-wrap"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="Search movies..." aria-label="Search movies"><kbd>⌕</kbd></div>
+      </div>
+      <div class="filters" id="genreFilters"><button class="filter active" data-genre="all">All movies</button></div>
+      <div class="results-meta"><span id="resultsCount">Loading movies...</span><span>SELECT A MOVIE TO GET RECOMMENDATIONS</span></div>
+      <div id="movieGrid" class="movie-grid"></div>
+      <div id="emptyState" class="empty-state hidden"><div class="empty-icon">⌕</div><h3>No movies found</h3><p>Try another title or choose a different genre.</p></div>
+    </section>
+
+    <section id="recommendations" class="recommend-section">
+      <div class="recommend-inner">
+        <div class="recommend-heading">
+          <div><div class="eyebrow">YOUR NEXT WATCH</div><h2>Because you liked <span id="basedOnTitle">...</span></h2><p>Recommendations are calculated from movie genres and descriptions.</p></div>
+          <div class="rec-badge"><span>✦</span> MATCHED FOR YOU</div>
+        </div>
+        <div id="recommendationGrid" class="movie-grid rec-grid">
+          <div class="recommend-placeholder"><span class="placeholder-icon">✧</span><p>Select a movie above to reveal your recommendations.</p></div>
+        </div>
+      </div>
+    </section>
+    <section class="how-section">
+      <div class="how-copy"><div class="eyebrow">BEHIND THE MATCH</div><h2>Thoughtful picks.<br><span>Simple intelligence.</span></h2><p>CineMatch uses content-based filtering. It converts movie genres and plot summaries into numerical features using TF-IDF, then compares movies with cosine similarity to surface related titles.</p></div>
+      <div class="steps">
+        <div class="step"><span class="step-number">01</span><div><b>Choose a movie</b><p>Start with a title that fits your mood.</p></div><span class="step-icon">▣</span></div>
+        <div class="step"><span class="step-number">02</span><div><b>Understand its features</b><p>Genres and plot descriptions become searchable data.</p></div><span class="step-icon">⌘</span></div>
+        <div class="step"><span class="step-number">03</span><div><b>Discover similar stories</b><p>Similarity scores help rank related movies.</p></div><span class="step-icon">✧</span></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="/"><span class="brand-mark">C</span><span>Cine<span class="brand-accent">Match</span></span></a><span>Movie discovery, made personal.</span><span>PYTHON · FLASK · MACHINE LEARNING</span></footer>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

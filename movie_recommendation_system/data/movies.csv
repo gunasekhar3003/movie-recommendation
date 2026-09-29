@@ -1,0 +1,41 @@
+id,title,year,genres,overview,rating
+1,"Inception",2010,"Sci-Fi|Action|Thriller","A skilled thief enters dreams to steal secrets and is offered a chance to erase his past through a complex mission.",8.8
+2,"Interstellar",2014,"Sci-Fi|Adventure|Drama","Explorers travel through a wormhole in search of a future for humanity as a father struggles with distance and time.",8.7
+3,"The Dark Knight",2008,"Action|Crime|Drama","A masked hero faces a chaotic criminal mastermind while protecting a city and confronting difficult moral choices.",9.0
+4,"The Matrix",1999,"Sci-Fi|Action","A computer programmer discovers that reality is a simulation and joins a rebellion against machines.",8.7
+5,"Avatar",2009,"Sci-Fi|Adventure|Fantasy","A former soldier visits an alien moon, bonds with its people and must choose where his loyalties lie.",7.9
+6,"Titanic",1997,"Romance|Drama","Two people from different social worlds fall in love aboard a luxurious ship facing a tragic disaster.",7.9
+7,"La La Land",2016,"Romance|Drama|Music","A musician and an aspiring actor fall in love while pursuing ambitious creative dreams in Los Angeles.",8.0
+8,"The Notebook",2004,"Romance|Drama","A lifelong love story follows two people whose relationship faces family pressure, separation and time.",7.8
+9,"Coco",2017,"Animation|Family|Fantasy","A young aspiring musician journeys into the Land of the Dead to uncover his family's history.",8.4
+10,"Toy Story",1995,"Animation|Family|Comedy","A group of toys experience friendship, jealousy and adventure when their owner receives a new favorite toy.",8.3
+11,"Finding Nemo",2003,"Animation|Family|Adventure","A cautious clownfish crosses the ocean with a forgetful companion to find his missing son.",8.2
+12,"Spider-Man: Into the Spider-Verse",2018,"Animation|Action|Adventure","A teenager becomes a hero and meets alternate-universe spider-powered figures who help him protect his city.",8.4
+13,"The Avengers",2012,"Action|Adventure|Sci-Fi","A team of extraordinary heroes must overcome their differences to defend Earth from an invading threat.",8.0
+14,"Guardians of the Galaxy",2014,"Action|Adventure|Sci-Fi|Comedy","A group of unlikely space adventurers unite to protect a powerful object from a dangerous enemy.",8.0
+15,"Jurassic Park",1993,"Adventure|Sci-Fi|Thriller","Visitors explore a theme park populated by cloned dinosaurs, but a breakdown turns the attraction into a survival struggle.",8.2
+16,"The Martian",2015,"Sci-Fi|Adventure|Drama","An astronaut stranded on Mars uses science, ingenuity and resilience while a team works to bring him home.",8.0
+17,"Shutter Island",2010,"Mystery|Thriller|Drama","A US marshal investigates a disappearance at a remote psychiatric facility where reality becomes uncertain.",8.2
+18,"Gone Girl",2014,"Mystery|Thriller|Crime","A husband's life becomes a media spectacle after his wife disappears and evidence raises questions about their marriage.",8.1
+19,"Knives Out",2019,"Mystery|Comedy|Crime","A detective investigates the death of a wealthy novelist, uncovering secrets within a complicated family.",7.9
+20,"Parasite",2019,"Thriller|Drama|Comedy","A struggling family gradually enters the lives of a wealthy household, setting off a chain of unexpected events.",8.5
+21,"The Conjuring",2013,"Horror|Mystery|Thriller","Paranormal investigators help a family experiencing frightening events in their secluded farmhouse.",7.5
+22,"A Quiet Place",2018,"Horror|Sci-Fi|Thriller","A family must live in silence to survive creatures that hunt by sound.",7.5
+23,"Get Out",2017,"Horror|Mystery|Thriller","A young man visits his partner's family estate and uncovers disturbing secrets beneath their hospitality.",7.8
+24,"The Grand Budapest Hotel",2014,"Comedy|Adventure|Drama","A hotel concierge and his young protégé become involved in a theft, inheritance dispute and changing era.",8.1
+25,"Home Alone",1990,"Comedy|Family","A young boy accidentally left home alone uses clever traps to defend his house from burglars.",7.7
+26,"The Social Network",2010,"Drama","A university student creates a social networking platform, leading to ambition, conflict and legal disputes.",7.8
+27,"Whiplash",2014,"Drama|Music","An ambitious young drummer faces an intense and demanding instructor at a prestigious music school.",8.5
+28,"Dune",2021,"Sci-Fi|Adventure|Drama","A young noble travels to a dangerous desert planet where political power and destiny collide.",8.0
+29,"The Lord of the Rings: The Fellowship of the Ring",2001,"Fantasy|Adventure|Drama","A young hobbit begins a perilous journey to destroy a powerful ring and prevent darkness from spreading.",8.9
+30,"Harry Potter and the Sorcerer's Stone",2001,"Fantasy|Adventure|Family","A young boy discovers he is a wizard and begins studying magic at a remarkable school.",7.6
+31,"The Lion King",1994,"Animation|Family|Drama","A young lion prince faces loss and responsibility before returning to reclaim his place in the kingdom.",8.5
+32,"Ratatouille",2007,"Animation|Comedy|Family","A rat with an extraordinary sense of taste pursues his dream of becoming a chef in Paris.",8.1
+33,"The Imitation Game",2014,"Drama|Thriller|History","A mathematician and his team work to decipher an encrypted code during World War II.",8.0
+34,"Edge of Tomorrow",2014,"Action|Sci-Fi","A soldier caught in a time loop relives a battle against alien invaders and learns to change its outcome.",7.9
+35,"The Prestige",2006,"Mystery|Drama|Thriller","Two rival magicians become consumed by competition as they attempt to uncover each other's greatest illusions.",8.5
+36,"Pride and Prejudice",2005,"Romance|Drama","A spirited young woman navigates family expectations and her changing feelings toward a reserved gentleman.",7.8
+37,"Inside Out",2015,"Animation|Family|Comedy","A young girl's emotions navigate change and help her understand complex feelings as she grows.",8.1
+38,"The Truman Show",1998,"Comedy|Drama|Sci-Fi","A man begins to question his seemingly perfect life and discovers unsettling truths about his world.",8.2
+39,"Mad Max: Fury Road",2015,"Action|Adventure|Sci-Fi","Two rebels flee across a harsh wasteland in a high-speed struggle for survival and freedom.",8.1
+40,"The King's Speech",2010,"Drama|History","A British monarch works with an unconventional speech therapist to overcome a stammer before a crucial public address.",8.0
